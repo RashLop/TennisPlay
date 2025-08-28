@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "352b13316af8f222b21a713f6854d6e0061232d4",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-28T14:16:58.000Z",
       "message": "refactoring: Ahora se encapsula los puntajes para solo mostrar el contador",
-      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+      "url": "https://github.com/RashLop/TennisPlay/commit/352b13316af8f222b21a713f6854d6e0061232d4"
     },
     "stats": {
       "total": 47,
       "additions": 39,
       "deletions": 8,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-28T14:18:01.000Z",
+      "message": "refactoring: Se han cambiado las descripciones de los test para mas claridad del codigo",
+      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2025-08-28"
     },
     "coverage": 100,
