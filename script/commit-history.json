@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-28T13:36:08.000Z",
+      "message": "feat: marcador de tennis inicializado en love -love",
+      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+    },
+    "stats": {
+      "total": 29187,
+      "additions": 13,
+      "deletions": 29174,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
