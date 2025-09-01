@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b330a3867a8808b72d0f3cee12f5e45e4e5390e0",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-01T19:28:15.000Z",
       "message": "refactor: Se ha cambiado la estructura del codigo para evitar el uso de varios condicionales, tambien ahora el jugador 2 puede hacer sus puntos junto a los del jugador 1",
-      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+      "url": "https://github.com/RashLop/TennisPlay/commit/b330a3867a8808b72d0f3cee12f5e45e4e5390e0"
     },
     "stats": {
       "total": 36,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-01T19:41:55.000Z",
+      "message": "feat: Funcion de deuce agregada, ahora cuando los dos jugadores empaten se declara Deuce",
+      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 28,
+      "deletions": 1,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

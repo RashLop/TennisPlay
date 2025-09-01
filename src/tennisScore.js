@@ -4,8 +4,14 @@ class TennisScorer {
         this.player2Points = 0; 
     }
     showScore(){
+
         const labels = ["Love", "15", "30", "40"]; 
-            return labels[this.player1Points] + " - " + labels[this.player2Points]; 
+        let Scorer = labels[this.player1Points] + " - " + labels[this.player2Points]; 
+        if(this.player1Points === 3 && this.player2Points === 3)
+        {
+            Scorer = "Deuce"; 
+        }
+        return Scorer; 
     }
 player1Score(){
     this.player1Points++; 

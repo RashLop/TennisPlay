@@ -36,5 +36,26 @@ describe("TennisScore",  () => {
         scorer.player2Score(); 
         expect(scorer.showScore()).toEqual("40 - 15")
     });
+
+        it("jugador 1 marca 3 puntos y jugador 2 marca 2 puntos", ()=> {
+        const scorer = new TennisScorer(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        expect(scorer.showScore()).toEqual("40 - 30")
+    });
+
+        it("jugador 1 marca 3 puntos y jugador 2 marca 3 puntos", ()=> {
+        const scorer = new TennisScorer(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        expect(scorer.showScore()).toEqual("Deuce")
+    });
     
 }); 
