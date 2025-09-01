@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4350be17c3a8b76da1752c03d20419127eabd49b",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-28T14:21:16.000Z",
       "message": "feat: El jugador 1 marca 3 puntos y el jugador 2 en 0",
-      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+      "url": "https://github.com/RashLop/TennisPlay/commit/4350be17c3a8b76da1752c03d20419127eabd49b"
     },
     "stats": {
       "total": 18,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-01T19:28:15.000Z",
+      "message": "refactor: Se ha cambiado la estructura del codigo para evitar el uso de varios condicionales, tambien ahora el jugador 2 puede hacer sus puntos junto a los del jugador 1",
+      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 19,
+      "deletions": 17,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
