@@ -57,5 +57,30 @@ describe("TennisScore",  () => {
         scorer.player2Score(); 
         expect(scorer.showScore()).toEqual("Deuce")
     });
+
+        it("En deuce, el jugador 1 marca un punto Advantage", ()=> {
+        const scorer = new TennisScorer(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        scorer.player1Score(); 
+        expect(scorer.showScore()).toEqual("Advantage Player 1")
+    });
+
+        it("En deuce, el jugador 1 marca 2 puntos seguidos se gana el juego", ()=> {
+        const scorer = new TennisScorer(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        scorer.player2Score(); 
+        scorer.player1Score(); 
+        scorer.player1Score(); 
+        expect(scorer.showScore()).toEqual("Game to Player 1")
+    });
     
 }); 

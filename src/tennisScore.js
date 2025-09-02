@@ -1,4 +1,4 @@
-class TennisScorer {
+export class TennisScorer {
     constructor(){
         this.player1Points = 0; 
         this.player2Points = 0; 
@@ -11,6 +11,19 @@ class TennisScorer {
         {
             Scorer = "Deuce"; 
         }
+        if (this.player1Points >= 4 || this.player2Points >= 4) {
+        let diff = this.player1Points - this.player2Points;
+        if (diff === 1) {
+            Scorer = "Advantage Player 1";
+        } else if (diff === -1) {
+            Scorer = "Advantage Player 2";
+        } else if (diff >= 2) {
+            Scorer = "Game to Player 1";
+        } else {
+            Scorer = "Game to Player 2";
+        }
+    }
+
         return Scorer; 
     }
 player1Score(){
@@ -19,7 +32,6 @@ player1Score(){
 player2Score(){
     this.player2Points++; 
 }
+
 }
 
-
-export default TennisScorer; 

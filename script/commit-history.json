@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "87e05e9bfc05914bde8cee2415d31984164b4eab",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-01T19:41:55.000Z",
       "message": "feat: Funcion de deuce agregada, ahora cuando los dos jugadores empaten se declara Deuce",
-      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+      "url": "https://github.com/RashLop/TennisPlay/commit/87e05e9bfc05914bde8cee2415d31984164b4eab"
     },
     "stats": {
       "total": 29,
@@ -131,5 +131,24 @@
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-02T09:37:41.000Z",
+      "message": "feat: ahora se contemplan los casos de advantage y game to para los jugadores, ademas del codigo html y en el presenter",
+      "url": "https://github.com/RashLop/TennisPlay/commit/HEAD"
+    },
+    "stats": {
+      "total": 96,
+      "additions": 69,
+      "deletions": 27,
+      "date": "2025-09-02"
+    },
+    "coverage": 5.26,
+    "test_count": 10,
+    "failed_tests": 9,
+    "conclusion": "failure"
   }
 ]
